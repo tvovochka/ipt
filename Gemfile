@@ -19,10 +19,7 @@ end
 
 gem 'jquery-rails'
 gem 'slim-rails'
-<<<<<<< HEAD
-=======
 gem 'haml'
->>>>>>> Create-home-page
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

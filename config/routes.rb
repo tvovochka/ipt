@@ -1,9 +1,6 @@
 Ipt::Application.routes.draw do
-<<<<<<< HEAD
 #  get "home/index"
-=======
   resources :news
->>>>>>> scaffold-news
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
