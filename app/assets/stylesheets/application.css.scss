@@ -1,0 +1,23 @@
+body {
+  background: {
+    image: url("top.jpg");
+    repeat: no-repeat;
+    position: center top;
+  }
+}
+#page {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+#header {
+  height: 422px;
+}
+#left_content {
+  float: left;
+  width: 200px;
+}
+#center_content {
+  float: left;
+  width: 760px;
+}

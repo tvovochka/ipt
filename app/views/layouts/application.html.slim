@@ -7,6 +7,13 @@ html
     = csrf_meta_tags
 
   body
-
-  = yield
+    #page
+      #header
+        / = image_tag("top.jpg", :alt => "Top", :class => "round")
+      #content
+        #left_content
+          
+        #center_content
+          = yield
+      #footer
 
