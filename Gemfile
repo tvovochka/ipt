@@ -9,6 +9,11 @@ gem 'sqlite3', '1.3.5'
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 
+group :production do
+	# gems specifically for Heroku go here
+	gem "pg"
+end
+
 gem 'activeadmin'
 
 gem "meta_search",    '>= 1.1.0.pre'
