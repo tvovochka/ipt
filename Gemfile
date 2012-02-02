@@ -9,10 +9,8 @@ gem 'sqlite3', '1.3.5', :group => :development
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 
-group :production do
-	# gems specifically for Heroku go here
-	gem "pg"
-end
+# gems specifically for Heroku go here
+gem "pg"
 
 gem 'activeadmin'
 
